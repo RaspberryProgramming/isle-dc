@@ -179,6 +179,11 @@ Navigate to [https://islandora.traefik.me/admin/structure/views](https://islando
 
 The archivesspace islandora module creates a few new content types within islandora. What this does is allows us to customize how some content is formatted, what it can store, etc. We'll modify the archival object in order to allow us to upload images to the content migrated by the archivesspace module. First you'll make sure you open the content types menu at [https://islandora.traefik.me/admin/structure/types](https://islandora.traefik.me/admin/structure/types). You'll want to click Manage Fields for the Archival Object. Here you can see a list of fields that can be added to that content type. Click Add field. Select Reference->Image from the Add a new field dropdown list. Select Unlimited from Allowed number of values dropdown list. You'll want to modify Allowed file extensions to the file types that you'd like to allow to be uploaded using comma or space to separate each. Save field settings. You can then set the label to media and save settings. From here you can begin to upload images to Islandora.
 
+## Modify Homepage
+After setting up islandora, you may want to point the homepage to a specific part of the website. For Example, you may want to point it at the content search or the archive page. You can do this by first determining the path to the page (Ex: the path to www.google.com/applesauce would be /applesauce). You will then need to navigate to [https://islandora.traefik.me/admin/config/system/site-information](https://islandora.traefik.me/admin/config/system/site-information]) which will lead you to the basic site settings page. You can then modify the path under Front Page -> Default front page. Save configuration when done.
+
+Source: https://it.umn.edu/services-technologies/how-tos/drupal-7-set-page-your-sites-homepage
+
 ## Daily Processes when using Islandora
 
 ### Upload Images to Content
