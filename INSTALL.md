@@ -1,6 +1,8 @@
 # Instructions to Install Islandora with ArchivesSpace
 
-Islandora is a... I don't care just skip to prereqs
+Islandora is a completely free open-source software framework designed to help institutions and organizations and their audiences collaboratively manage and discover digital assets using a best practice framework.  Islandora is implemented and supported by an ever-growing international community.
+
+Built on a base of Drupal, Fedora, and Solr, Islandora's flexibility empowers users to work with a huge variety of data types (such as image, video, and pdf) and knowledge domains (such as Chemistry and the Digital Humanities) and provides integration with additional viewers, editors, and data processing applications.
 
 ## Prereqs
 - [Docker](https://docs.docker.com/get-docker/)
