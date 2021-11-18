@@ -4,7 +4,7 @@
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
-- [Unofficial Install[(#unofficial-install)
+- [Unofficial Install](#unofficial-install)
 - [Getting Started](#getting-started)
 - [Local Development](#local-development)
 - [Custom Environment](#custom-environment)
