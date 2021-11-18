@@ -57,6 +57,9 @@ before running any of the make commands below.
 
 See release notes at https://docs.docker.com/compose/cli-command/.
 
+## UNOFFICIAL INSTALL
+
+Please Refer to INSTALL.md for our install instructions.
 
 ## Getting Started
 
