@@ -182,9 +182,14 @@ Navigate to [https://islandora.traefik.me/admin/structure/views](https://islando
 The archivesspace islandora module creates a few new content types within islandora. What this does is allows us to customize how some content is formatted, what it can store, etc. We'll modify the archival object in order to allow us to upload images to the content migrated by the archivesspace module. First you'll make sure you open the content types menu at [https://islandora.traefik.me/admin/structure/types](https://islandora.traefik.me/admin/structure/types). You'll want to click Manage Fields for the Archival Object. Here you can see a list of fields that can be added to that content type. Click Add field. Select Reference->Image from the Add a new field dropdown list. Select Unlimited from Allowed number of values dropdown list. You'll want to modify Allowed file extensions to the file types that you'd like to allow to be uploaded using comma or space to separate each. Save field settings. You can then set the label to media and save settings. From here you can begin to upload images to Islandora.
 
 ## Modify Homepage
+
 After setting up islandora, you may want to point the homepage to a specific part of the website. For Example, you may want to point it at the content search or the archive page. You can do this by first determining the path to the page (Ex: the path to www.google.com/applesauce would be /applesauce). You will then need to navigate to [https://islandora.traefik.me/admin/config/system/site-information](https://islandora.traefik.me/admin/config/system/site-information]) which will lead you to the basic site settings page. You can then modify the path under Front Page -> Default front page. Save configuration when done.
 
 Source: https://it.umn.edu/services-technologies/how-tos/drupal-7-set-page-your-sites-homepage
+
+## Adding Breakcrumbs
+
+Now that the site is almost finished, we can finally add breadcrumps to our site. This will allow users to see where each document came from and get a better idea of the structure behind the document. First we'll start by going back into our configuration page and selecting core settings under ArchivesSpace. You can also use this link to navigate directly there [https://islandora.traefik.me/admin/archivesspace/config](https://islandora.traefik.me/admin/archivesspace/config) You can then open the breadcrumbs settings by clicking the box named Breadcrumbs. As you can see, we already have selected content types which this should show up. You can then fully enable this feature by selecting a field that contains reference to parents. The field you want to select is field_member_of. Click Save Configuration to apply your changes. Now you can navigate to the collection and preview an archival document. You'll see that between the content and the navigation, there is a line with the document's parents. This is the breadcrumb.
 
 ## Daily Processes when using Islandora
 
